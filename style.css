@@ -5,3 +5,13 @@
 .top-header-right{
     float: right;
 }
+.top-products{
+    position: sticky;
+    top: 30rem;
+    text-align: center;
+}
+@media (min-width: 320px) and (max-width: 577px) { 
+    #carouselExampleDark{
+        padding-bottom: 1rem;
+    }   
+}
